@@ -1,0 +1,8 @@
+@startuml
+participant "User" as user
+participant "DecimalToAnyBase" as decimalToAnyBase
+
+user -> decimalToAnyBase : input decimal number and base
+decimalToAnyBase -> decimalToAnyBase : convert decimal to any base
+decimalToAnyBase -> user : output number in the specified base
+@enduml

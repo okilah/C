@@ -1,0 +1,8 @@
+@startuml
+participant "User" as user
+participant "CelsiusToFahrenheit" as celsiusToFahrenheit
+
+user -> celsiusToFahrenheit : input temperature in Celsius
+celsiusToFahrenheit -> celsiusToFahrenheit : convert Celsius to Fahrenheit
+celsiusToFahrenheit -> user : output temperature in Fahrenheit
+@enduml

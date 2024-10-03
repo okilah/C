@@ -1,0 +1,12 @@
+@startuml
+participant "User" as user
+participant "ROT13Cipher" as rot13Cipher
+
+user -> rot13Cipher : input plaintext
+rot13Cipher -> rot13Cipher : apply ROT13 transformation
+rot13Cipher -> user : output ciphertext
+
+user -> rot13Cipher : input ciphertext
+rot13Cipher -> rot13Cipher : apply ROT13 transformation
+rot13Cipher -> user : output plaintext
+@enduml

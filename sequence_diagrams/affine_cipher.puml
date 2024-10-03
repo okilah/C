@@ -1,0 +1,12 @@
+@startuml
+participant "User" as user
+participant "AffineCipher" as affineCipher
+
+user -> affineCipher : input plaintext
+affineCipher -> affineCipher : apply affine transformation
+affineCipher -> user : output ciphertext
+
+user -> affineCipher : input ciphertext
+affineCipher -> affineCipher : apply inverse affine transformation
+affineCipher -> user : output plaintext
+@enduml
