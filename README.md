@@ -37,3 +37,7 @@ Click on [Files menu](https://TheAlgorithms.github.io/C/files.html) to see the l
 ## Contributions
 
 As a community developed and maintained repository, we welcome new un-plagiarized quality contributions. Please read our [Contribution Guidelines](https://github.com/TheAlgorithms/C/blob/master/CONTRIBUTING.md).
+
+## Sequence Diagrams
+
+For sequence diagrams of the algorithms, please refer to the [Sequence Diagrams](sequence_diagrams/sequence_diagrams.md) section.

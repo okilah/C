@@ -1,0 +1,8 @@
+@startuml
+participant "User" as user
+participant "DecimalToBinaryRecursion" as decimalToBinaryRecursion
+
+user -> decimalToBinaryRecursion : input decimal number
+decimalToBinaryRecursion -> decimalToBinaryRecursion : convert decimal to binary using recursion
+decimalToBinaryRecursion -> user : output binary number
+@enduml

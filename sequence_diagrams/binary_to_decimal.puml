@@ -1,0 +1,8 @@
+@startuml
+participant "User" as user
+participant "BinaryToDecimal" as binaryToDecimal
+
+user -> binaryToDecimal : input binary number
+binaryToDecimal -> binaryToDecimal : convert binary to decimal
+binaryToDecimal -> user : output decimal number
+@enduml
